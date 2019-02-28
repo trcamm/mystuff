@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EregAbortSessionTests]">
+  <listeners>
+    <listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="EregAbortSession(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEregTests.StartandAbortEregistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="eRegAbortSession"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEregTests.StartandAbortEregistrationTest -->
+    </classes>
+  </test> <!-- EregAbortSession(failed) -->
+</suite> <!-- Failed suite [EregAbortSessionTests] -->

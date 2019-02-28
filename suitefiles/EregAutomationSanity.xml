@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EregAutomationSanity">
+
+
+<listeners>
+	<listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+  <test name="EregAutomationSanity" parallel="classes" thread-count="4">
+	<classes>
+		<class name="com.practicevelocity.seleniumEregTests.EregPinAPICheck" />
+		<class
+			name="com.practicevelocity.seleniumEregTests.StartandAbortEregistrationTest" />
+		<class
+			name="com.practicevelocity.seleniumEregTests.StartRegistrationIsThisEmergencyYesTest" />
+		<class
+			name="com.practicevelocity.seleniumEregTests.PatientIdInsuranceCardPhotoYes" />
+		<class
+			name="com.practicevelocity.seleniumEregTests.EregPatientInfoVerificationTest" />
+	</classes>
+  </test> 
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68260" started-at="2019-02-28T18:54:48Z" finished-at="2019-02-28T18:55:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68260" started-at="2019-02-28T18:54:48Z" finished-at="2019-02-28T18:55:56Z">
+      <class name="com.practicevelocity.seleniumEregTests.EregPinAPICheck">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.practicevelocity.seleniumEregTests.EregPinAPICheck@306279ee]" name="setupTest" is-config="true" duration-ms="3586" started-at="2019-02-28T18:54:48Z" finished-at="2019-02-28T18:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="RestApiSignPin()[pri:0, instance:com.practicevelocity.seleniumEregTests.EregPinAPICheck@306279ee]" name="RestApiSignPin" duration-ms="63494" started-at="2019-02-28T18:54:51Z" finished-at="2019-02-28T18:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestApiSignPin -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.practicevelocity.seleniumEregTests.EregPinAPICheck@306279ee]" name="teardownTest" is-config="true" duration-ms="1156" started-at="2019-02-28T18:55:55Z" finished-at="2019-02-28T18:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.practicevelocity.seleniumEregTests.EregPinAPICheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

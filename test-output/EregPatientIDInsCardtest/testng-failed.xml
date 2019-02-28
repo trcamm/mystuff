@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EregPatientIDInsCardtest]">
+  <listeners>
+    <listener class-name="com.practicevelocity.seleniumExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="EregPatientIDInsCardtest(failed)">
+    <classes>
+      <class name="com.practicevelocity.seleniumEregTests.PatientIdInsuranceCardPhotoYes">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="PatientIDInsCardYes"/>
+        </methods>
+      </class> <!-- com.practicevelocity.seleniumEregTests.PatientIdInsuranceCardPhotoYes -->
+    </classes>
+  </test> <!-- EregPatientIDInsCardtest(failed) -->
+</suite> <!-- Failed suite [EregPatientIDInsCardtest] -->
